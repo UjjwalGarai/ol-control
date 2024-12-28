@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ol Control</title>
+  <script type="module" crossorigin src="/ol-control/assets/index-D-vhs5b2.js"></script>
+  <link rel="stylesheet" crossorigin href="/ol-control/assets/index-nYmxIL6E.css">
+</head>
+
+<body>
+
+
+
+
+  <div class="conatiner">
+    <div class="layer-container">
+      <div class="baseMap-container">
+        <div class="openstreet-map base-map">
+          <input type="radio" name="base-map" id="openstreet-map" value="OpenStreetMap" checked>
+          <label for="openstreet-map">OSM</label>
+        </div>
+        <!-- <div class="stadia-map base-map">
+          <input type="radio" name="base-map" id="stadia-map" value="Stadia">
+          <label for="stadia-map">Stadia</label>
+        </div> -->
+        <div class="cartoDB-map base-map">
+          <input type="radio" name="base-map" id="cartoDB-map" value="CartoDB">
+          <label for="cartoDB-map">CartoDB</label>
+        </div>
+      </div>
+      <div id="option-layer-container">
+      </div>
+      
+    </div>
+    <div id="map">
+    </div>
+  </div>
+</body>
+
+</html>
